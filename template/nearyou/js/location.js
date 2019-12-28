@@ -36,7 +36,7 @@ function showError(error)
   {
 		case error.PERMISSION_DENIED:
 			var denied = 'User denied the request for Geolocation';
-      alert('Hata Konumunuzu Etkinleştirelim');
+      alert('Hata! Konumunuzu Etkinleştirin');
       break;
 		case error.POSITION_UNAVAILABLE:
 			var unavailable = 'Location information is unavailable';
