@@ -78,17 +78,16 @@ img
 .earth
 {
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   background-image: url(https://pbs.twimg.com/profile_images/1199630597695639553/5goL94M6_400x400.jpg);
   border-radius: 50%;
-  background-size: 700px;
-  animation:rotate 7s linear infinite;
+  background-size: 250px;
+  animation:rotate 1s linear infinite;
   box-shadow: 10px -10px 40px black inset, -10px 10px 40px black inset, -10px -10px 40px black inset;
   filter: drop-shadow(0px 0px 8px black);
 }
