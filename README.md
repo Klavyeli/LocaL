@@ -27,7 +27,9 @@ Get Your Victim's Latitude Full Coordinate İnformation And Access Your Camera B
 Open a second terminal and start ngrok server
 
 Enter https://ngrok.com/ and register, select your distribution from the download section 2. open a terminal and enter commands in order
-      
+<br />
+Copy the path of the download link and pull it to the terminal with wget or download it directly from the site.
+
     wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.tgz
     unzip ngrok-stable-linux-arm64.tgz
 Copy the token defined by your account to you and continue to execute commands
